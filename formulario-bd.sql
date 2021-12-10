@@ -28,10 +28,10 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `cadastrar` (
-  `cpf` int(45) NOT NULL,
+  `cpf` varchar(45) NOT NULL,
   `nome` varchar(45) NOT NULL,
   `email` varchar(45) NOT NULL,
-  `telefone` int(45) NOT NULL
+  `telefone` varchar(45) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
